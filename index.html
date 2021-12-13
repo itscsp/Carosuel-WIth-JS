@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=
+    , initial-scale=1.0"
+    />
+    <title>Vinilla JS Carousel</title>
+
+    <link rel="stylesheet" href="./style.css" />
+
+  </head>
+  <body>
+    <div class="carousel0"></div>
+    <div class="carousel">
+
+      <button class="carousel__button carousel__button--left is-hidden">
+        <img src="./img/arrowLeft.png" alt="" />
+      </button>
+
+      <div class="carousel__track-container">
+        <ul class="carousel__track">
+          <li class="carousel__slide current-slide">
+            <img class="carousel__image" src="./img/img1.jpg" alt="" />
+          </li>
+          <li class="carousel__slide">
+            <img class="carousel__image" src="./img/img2.jpg" alt="" />
+          </li>
+          <li class="carousel__slide">
+            <img class="carousel__image" src="./img/img3.jpg" alt="" />
+          </li>
+        </ul>
+      </div>
+
+      <button class="carousel__button carousel__button--right">
+        <img src="./img/arrowRight.png" alt="" />
+      </button>
+
+      <div class="carousel__nav">
+        <button class="carousel__indicator current-slide"></button>
+        <button class="carousel__indicator"></button>
+        <button class="carousel__indicator"></button>
+      </div>
+    </div>
+
+    <div class="carousel2"></div>
+
+    <script src="./main.js"></script>
+  </body>
+</html>
